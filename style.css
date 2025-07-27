@@ -1,0 +1,74 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(249, 230, 203);
+    text-align: center;
+}
+
+h1{
+    
+    height:80px;
+    background-color: rgb(3, 54, 76);
+    line-height: 5rem;
+    color: white;
+
+}
+
+.imgchoices {
+    width: 850px;
+    height: 230px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto; /* This centers the div horizontally */
+}
+
+
+.choice{
+    width: 180px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+.choice:hover{
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+    gap: 15rem;
+    
+}
+
+#user-score,#comp-score{
+    font-size: 4rem;
+}
+
+#msg{
+    background-color: black;
+    display: inline-block;
+    color: white;
+    padding: 0.5rem 2rem;
+    margin-top: 4rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+}
+
+
+
